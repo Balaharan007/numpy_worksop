@@ -1,6 +1,6 @@
 # find if the given number is a palindrome or not?
 
-a=int(input("Enter a number: "))
+a=int(input("Enter a no: "))
 
 def is_palindrome(a):
     return str(a) == str(a)[::-1]
